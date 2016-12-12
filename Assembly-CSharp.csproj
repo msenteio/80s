@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\CompleteCameraController.cs" />
      <Compile Include="Assets\Scripts\catMove.cs" />
      <Compile Include="Assets\Scripts\easyMove.cs" />
+     <Compile Include="Assets\Scripts\levelLoader.cs" />
+     <Compile Include="Assets\Scripts\levelLoaderOpen.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
      <Compile Include="Assets\Scripts\topdownMove.cs" />
  <Reference Include="UnityEngine.UI">
