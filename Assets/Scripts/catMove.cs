@@ -56,7 +56,7 @@ public class catMove : MonoBehaviour
 		MoveForward(); // Player Movement 
 	}
 
-	void MoveForward()
+	public virtual void MoveForward()
 	{
 
 //		if(Input.GetKey("up"))//Press up arrow key to move forward on the Y AXIS
@@ -99,7 +99,7 @@ public class catMove : MonoBehaviour
 		}
 	}
 
-	void Jump()
+	public virtual void Jump()
 	{
 		if (grounded == true)
 		{

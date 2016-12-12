@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\catMove.cs" />
      <Compile Include="Assets\Scripts\easyMove.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
+     <Compile Include="Assets\Scripts\topdownMove.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity 5.5b/Unity 5.5b.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
