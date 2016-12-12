@@ -33,13 +33,13 @@ public class catMove : MonoBehaviour
 //
 		//if (time <= 2)
 		//{
-		if(Input.GetKeyDown("up"))
+		if(Input.GetKeyDown("space"))
 		{
 			Jump();
 
 
 		}
-		if (Input.GetKeyDown ("up")) {
+		if (Input.GetKeyDown ("space")) {
 		
 			catwalk.SetLayerWeight (3, 1);
 			catwalk.SetLayerWeight (2, 0); 

@@ -13,7 +13,17 @@ public class topdownMove : catMove {
 	// Update is called once per frame
 	public override void MoveForward () {
 
-		 if(Input.GetKey("down"))//Press up arrow key to move forward on the Y AXIS
+
+		if(Input.GetKey("up"))//Press up arrow key to move forward on the Y AXIS
+		{
+			transform.Translate(0,playerSpeed * Time.deltaTime,0);
+			catMove.SetLayerWeight (3, 0); 
+			catMove.SetLayerWeight (0, 0); 
+			catMove.SetLayerWeight (1, 0); 
+			catMove.SetLayerWeight (2, 0); 
+			catMove.SetLayerWeight (4, 1); 
+		}
+		 else if(Input.GetKey("down"))//Press up arrow key to move forward on the Y AXIS
 		{
 			transform.Translate(0,-playerSpeed * Time.deltaTime,0);
 			catMove.SetLayerWeight (4, 0);
